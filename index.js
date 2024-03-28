@@ -50,21 +50,27 @@
 
 // multiply(2,4)
 
-// Question 6 - Mei 
-const add = (num1, num2) => {
-    if (num1 === num2) {
-        return ((num1 + num2) * 3);
-    } else {
-        return num1 + num2;
-    }
+// // Question 6 - Mei 
+// const add = (num1, num2) => {
+//     if (num1 === num2) {
+//         return ((num1 + num2) * 3);
+//     } else {
+//         return num1 + num2;
+//     }
+// }
+
+// console.log(add(6,6))
+
+// //Question 7 - Madison
+
+// const isNegative = (num) => {
+//     num < 0 ? console.log(true):console.log(false)
+// }
+
+// isNegative(6)
+
+// Question 8
+const triangleArea = (height, base) => {
+    return ((height * base) * 1/2);
 }
-
-console.log(add(6,6))
-
-//Question 7 - Madison
-
-const isNegative = (num) => {
-    num < 0 ? console.log(true):console.log(false)
-}
-
-isNegative(6)
+console.log(triangleArea(6,8))
