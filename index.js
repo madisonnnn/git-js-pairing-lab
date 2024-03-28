@@ -60,3 +60,11 @@ const add = (num1, num2) => {
 }
 
 console.log(add(6,6))
+
+//Question 7 - Madison
+
+const isNegative = (num) => {
+    num < 0 ? console.log(true):console.log(false)
+}
+
+isNegative(6)
