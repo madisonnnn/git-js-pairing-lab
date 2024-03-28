@@ -2,13 +2,13 @@
 
 //Question 1 - Madison
 
-// const fiveToOneHundred = () => {
-//     for(i = 5; i <= 100; i++){
-//         console.log(i)
-//     }
-// }
+const fiveToOneHundred = () => {
+    for(i = 5; i <= 100; i++){
+        console.log(i)
+    }
+}
 
-// fiveToOneHundred()
+fiveToOneHundred()
 
 // Question 2 - Mei 
 const multiplesOfThree = () => {
@@ -20,3 +20,4 @@ const multiplesOfThree = () => {
 }
 
 multiplesOfThree();
+
