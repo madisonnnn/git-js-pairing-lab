@@ -74,3 +74,8 @@ const triangleArea = (height, base) => {
     return ((height * base) * 1/2);
 }
 console.log(triangleArea(6,8))
+
+// Question 10
+const largest = () => {
+    
+}
