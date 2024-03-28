@@ -41,3 +41,11 @@ const untilNum = (numbers) => {
 }
 
 untilNum(5);
+
+//Question 5 - Madison
+
+const multiply = (num1,num2) => {
+    console.log(num1*num2)
+}
+
+multiply(2,4)
