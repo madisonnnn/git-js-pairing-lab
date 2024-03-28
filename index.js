@@ -74,3 +74,11 @@ const triangleArea = (height, base) => {
     return ((height * base) * 1/2);
 }
 console.log(triangleArea(6,8))
+
+//Question 9 - Madison
+
+const betweenTwentyAndForty = (num) => {
+    num > 20 && num < 40 ? console.log(true): console.log(false)
+}
+
+betweenTwentyAndForty(90)
