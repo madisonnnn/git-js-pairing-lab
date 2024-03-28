@@ -51,11 +51,11 @@
 // multiply(2,4)
 
 // // Question 6 - Mei 
-// const add = (num1, num2) => {
-//     if (num1 === num2) {
-//         return ((num1 + num2) * 3);
+// const add = (num3, num4) => {
+//     if (num3 === num4) {
+//         return ((num3 + num4) * 3);
 //     } else {
-//         return num1 + num2;
+//         return num3 + num4;
 //     }
 // }
 
@@ -69,16 +69,29 @@
 
 // isNegative(6)
 
-// Question 8
-const triangleArea = (height, base) => {
-    return ((height * base) * 1/2);
+// Question 8 - Mei 
+// const triangleArea = (height, base) => {
+//     return ((height * base) * 1/2);
+// }
+// console.log(triangleArea(6,8))
+
+// //Question 9 - Madison
+
+// const betweenTwentyAndForty = (num) => {
+//     num > 20 && num < 40 ? console.log(true): console.log(false)
+// }
+
+// betweenTwentyAndForty(90)
+
+// Question 10 - Mei 
+const largest = (num5, num6, num7) => {
+    if (num5 > num6 && num5 > num7) {
+        return num5;
+    } else if (num6 > num5 && num6 > num7) {
+        return num6;
+    } else {
+        return num7;
+    }
 }
-console.log(triangleArea(6,8))
+console.log(largest(4, 6, 8))
 
-//Question 9 - Madison
-
-const betweenTwentyAndForty = (num) => {
-    num > 20 && num < 40 ? console.log(true): console.log(false)
-}
-
-betweenTwentyAndForty(90)
